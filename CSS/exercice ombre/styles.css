@@ -1,0 +1,9 @@
+h1 {
+    text-shadow: -1px -6px 5px purple;
+}
+p:first-of-type {
+    box-shadow: 1px 1px 5px red;
+}
+p:last-of-type {
+    box-shadow: -20px 4px 5px green;
+}

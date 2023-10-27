@@ -1,0 +1,31 @@
+h1 {
+    color: red;
+    text-align: center;
+    font-size: 50px;
+}
+h3 {
+    color: blue;
+    font-size: larger;
+}
+
+p{
+    background-color: grey;
+}
+strong {
+    font-weight: normal;
+    color: greenyellow;
+}
+em {
+    font-style: normal;
+    text-decoration: underline;
+    font-size: larger;
+    color: orange;
+}
+#dernier {
+    background-color: pink;
+}
+#deuxieme {
+    color: green;
+    text-align: right;
+    text-decoration: underline;
+}
