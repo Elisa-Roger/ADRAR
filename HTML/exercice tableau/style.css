@@ -1,0 +1,17 @@
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(224, 63, 224);
+    text-align: center;
+}
+caption{
+    color: blueviolet;
+    font-weight: bolder;
+}
+td{
+    border: 2px solid black;
+    
+}
+th{
+    border-collapse: 2px solid black;
+    background-color: rgb(167, 212, 234);
+}

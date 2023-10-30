@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact</title>
+        <link rel="stylesheet" href="styles.css"/>
+    </head>
+    <body>
+        <header>
+            <img src="./Image/sunset-header-45626-800x200.jpg"/>
+            <h1>Bienvenue sur mon site !</h1>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Accueil</a></li>
+                    <li><a href="#ancre">Blog</a></li>
+                    <li><a href="">Galerie</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <form method="POST" action="monProgramme.php">
+                <fieldset>
+                    <legend>Contact</legend>
+                    <div>
+                        <label class="required" for="nom">Nom :</label>
+                        <input type="text" required name="nom" placeholder="Indiquez votre nom" maxlength="20" minlength="2"/>
+                    </div>
+                    <div>
+                        <label class="required" for="mail">E-mail :</label>
+                        <input type="email" required name="mail" placeholder="Indiquez votre email"/>
+                    </div>
+                    <div>
+                        <label for="text">Laissez un commentaire :</label>
+                    </div>    
+                    <div>
+                        <textarea placeholder="Indiquez votre commentaire" cols="70" rows="10" name="text"></textarea>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="checkbox" checked />
+                        <label for="checkbox" >Envoyez une copie pas E-mail :</label>
+                    </div>
+                    <div>
+                        <input type="submit" value="Envoyez"/>
+                        <input type="reset" value="Reset"/>
+                    </div>
+                </fieldset>
+
+            </form>
+        </section>
+        <footer>
+            <ul>
+                <li><a href="https://google.com">Menu 1</a></li>
+                <li><a href="https://google.com">Menu 2</a></li>
+                <li><a href="https://google.com">Menu 3</a></li>
+            </ul>
+        </footer>
+    </body>
+
+</html>
