@@ -1,0 +1,45 @@
+form{
+    background-color: lightgrey;
+    width: 400px;
+    height: 250px;
+    border:  1px solid black;
+}
+
+form h1{
+    text-align: center;
+}
+
+form div{
+    padding: 5px;
+}
+
+form label{
+    margin-left: 30px;
+}
+
+form input{
+    margin-left: 20px;
+}
+
+form div:nth-child(4) label{
+    margin-left: 10px;
+}
+form div:nth-child(4) input{
+    margin-left: 30px;
+}
+
+.button {
+    background-color: white;
+    color: black;
+    padding: 5px;
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+}
+
+form div:nth-child(5){
+    margin-top: 20px;
+    text-align: center;
+}

@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(162, 93, 226);
+
+}
+
+p {
+    background-color: lightgray;
+    border: 2px solid green;
+}
+p:first-of-type {
+    height: 100px;
+    padding: 20px;
+    margin: 0;
+}
+p:nth-child(2) {
+    width: 50%;
+    padding: 1.2em;
+    margin: 20px 5px;
+}
+p:last-of-type {
+    height: 200px;
+    width: 200px;
+    margin: auto;
+}

@@ -1,0 +1,26 @@
+@media only screen and (max-width: 640px){
+    .p1{
+        background-color: blue;
+    }
+    body{
+        background-color: lightgray;
+    }
+    h1 {
+        color: rgb(235, 235, 211);
+        font-size: 30px;
+    }
+    
+}
+@media only screen and (max-width: 480px){
+    .p4{
+        background-color: blue;
+    }
+    body{
+        background-color: lightgray;
+    }
+    h1 {
+        color: rgb(235, 235, 211);
+        font-size: 30px;
+    }
+    
+}
