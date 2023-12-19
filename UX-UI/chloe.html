@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="chloe.css"/>
+        <title>El vino!</title>
+    </head>
+<body>
+    <header>
+        <img src="banniere.png" alt="banniere"/>
+        <nav>
+                
+            <ul>
+                <li class="accueil"><a href='indexelisa.html'>Accueil</a></li>
+                <li><a href='joanna.html'>Boutique</a></li>
+                <li><a href='chloe.html'>Contact</a></li>
+                <li class="panier"><a href='#'>Panier</a></li>
+            </ul>
+        
+        </nav>
+    </header>
+    <p class="fond">
+    <img src="fondForm.png" alt="fond"/>
+    </p>
+    
+    
+    <form method="POST" action="monProgramme.php">
+        <h2>Nous contacter</h2>
+        <h3>Vous pouvez nous contacter via ce formulaire, nous nous engageons à vous répondre dans les plus brefs délais.</h3>
+        <div id="form1">
+        <div>
+            <label for="nom">Nom: <span class="blue">*</span></label>
+            <input type="texte" name="nom" required placeholder="Ex: Dupont" maxlength="20" minlength="2"/>
+        </div>
+        <div>
+            <label for="prenom">Prénom: <span class="blue">*</span></label>
+            <input type="texte" name="prenom" required placeholder="Ex: Roger" maxlength="20" minlength="2"/>
+        </div>
+        <div>
+            <label for="email">E-mail: <span class="blue">*</span></label>
+            <input type="email" name="email" required placeholder="Ex: Dupont.R@gmail.com"/>
+        </div>
+        <div>
+            <label for="numero">Téléphone: <span class="blue">*</span></label>
+            <input type="tel" name="numero" required placeholder="Ex: 06.52.32.21.24"/>
+        </div>
+    </div>
+    <div id="form2">
+        <label for="liste">Votre type de demande:</label>
+        <select name="liste">
+            
+                <option value="option1" checked>Sélectionnez un motif de demande</option>
+                <option value="option2">Réservation de dégustation</option>
+                <option value="option3">Demande/réclamation produit</option>
+                <option value="option4">Devis</option>
+                <option value="option5">Autre</option>
+        </select>
+        
+        <div>
+            <textarea cols="70" rows="10" required placeholder="Entrez votre message"></textarea>
+        </div>
+
+        <div>
+            <label for="photo"> Ajoutez un fichier:</label>
+            <input type="file" name="photo" accept=".png, .jpg, .gif" />
+        </div>
+    </div>
+    <div id="form3">
+        <div>
+            <input type="checkbox" id="checkbox"/><label for="checkbox">Recevoir une copie par mail</label>        
+        </div>
+    </div>
+    <div id="form4">
+        <div>   
+            <p class="blue"><strong>* Informations obligatoires</strong></p>
+        </div>
+    </div>
+    <div id="form5">
+        <div>
+            <input id="contact-form" class ="button1" type="submit" value="Envoyer"/>        
+        </div>  
+    </div>      
+    </fieldset>
+</form>
+
+    <footer>
+        <img src="footer.png" alt="footer"/>
+    </footer>
+</body>
+</html>

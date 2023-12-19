@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'playfair_displayregular';
+    src: url('playfairdisplay-regular-webfont.eot');
+    src: url('playfairdisplay-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('playfairdisplay-regular-webfont.woff2') format('woff2'),
+         url('playfairdisplay-regular-webfont.woff') format('woff'),
+         url('playfairdisplay-regular-webfont.ttf') format('truetype'),
+         url('playfairdisplay-regular-webfont.svg#playfair_displayregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'alex_brushregular';
+    src: url('alexbrush-regular-webfont.eot');
+    src: url('alexbrush-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('alexbrush-regular-webfont.woff2') format('woff2'),
+         url('alexbrush-regular-webfont.woff') format('woff'),
+         url('alexbrush-regular-webfont.ttf') format('truetype'),
+         url('alexbrush-regular-webfont.svg#alex_brushregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+
+
+
+body{
+    background-color:black;
+}
+nav ul
+{
+	display: flex;
+	list-style-type: none;
+}
+li.accueil{
+    margin-left: 380px;
+    padding-right:50px;
+}
+li.panier{
+    padding-left: 30px;
+    
+}
+nav li
+{
+	margin-right: 100px;
+    margin-left:100px;
+    margin-top: -100px;
+	padding-bottom: 100px;
+	padding-right: 10px;
+	font-family: 'playfair_displayregular';
+	color: black;
+	font-size: 1.5em;
+}
+
+
+nav a
+{
+	font-family: 'playfair_displayregular';
+	color: black;
+	font-size: 1.5em;
+}
+
+nav a:hover
+{
+	font-family: 'playfair_displayregular';
+	color: #f2ab08;
+	font-size: 1.5em;
+}
+
+h2{
+    font-family: 'playfair_displayregular';
+    color: white;    
+}
+
+a{
+    text-decoration:none;
+}
+
+p.fond>img{
+    width: 600px;
+    height: 800px;
+    margin-left: 500px;
+    padding-bottom: 600px;
+}
+form{
+    font-family: 'playfair_displayregular';
+    width:400px;
+    height: 600px;
+    padding-bottom: 300px;
+    margin-left: 540px;
+    margin-top: -1250px;
+    padding-top: 50px;
+}
+
+h2{
+    width: 200px;
+    font-family: 'alex_brushregular';
+    text-decoration:left;
+    margin-left: 370px;
+    margin-top:-130px;
+    color: black;
+    padding-bottom: 100px;
+}
+h3{
+    width: 500px;
+    font-family: 'alex_brushregular';
+    margin-top:-50px;
+    color: black;
+    padding-bottom: 50px;
+}
+
+
+
+div#form1{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+div#form2{
+    
+    padding-bottom: 20px;
+}
+div#form3{
+    
+    padding-bottom: 20px;
+}
+div#form4{
+    
+    padding-bottom: 20px;
+}
+div#form5{
+    
+    padding-bottom: 20px;
+}
+
