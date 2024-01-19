@@ -1,0 +1,76 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.tete, .cheveu{
+    position:absolute;
+    top:10px;
+    left:30%;
+}
+#flecheg{
+    position:absolute;
+    top:70px;
+    left:30px;
+}
+
+#fleched{
+    position:absolute;
+    top:70px;
+    left:80%;
+}
+
+#b2{
+    display:none;
+}
+#b3{
+    display:none;
+}
+#j1{
+    display:none;
+}
+#j2{
+    display:none;
+}
+#j3{
+    display:none;
+}
+#t1{
+    display:none;
+}
+#t2{
+    display:none;
+}
+#t3{
+    display:none;
+}
+
+
+/*Position de la section couleur de cheveu*/
+.sec2{
+    position: absolute;
+    top:200px;
+    left:30%;
+}
+
+/*Création des carrés*/
+
+.div{
+    display:inline-block;
+    width: 50px;
+    height: 50px;
+}
+#noire{
+    background-color: rgb(32, 31, 31);
+    color: rgb(32, 31, 31);
+
+}
+
+#jaune{
+    background-color: orange;
+    
+}
+
+#bleu{
+    background-color: rgb(12, 112, 112);
+}
