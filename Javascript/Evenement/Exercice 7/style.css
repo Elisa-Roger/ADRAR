@@ -1,0 +1,14 @@
+body{
+    height : 300vh;
+    background-color: blueviolet;
+
+}
+
+#bar{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 20px;
+    color: black;
+}
